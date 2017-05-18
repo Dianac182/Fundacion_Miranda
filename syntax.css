@@ -3,57 +3,102 @@
     margin: 0;
     padding: 0;
 	width: 100%;
+	height: 100%;
     font-family: Open Sans;
 }
 
 #header{
-	height: 200px;
-    background: rgb(0,100,177);
+	margin: 0;
+	padding: 0;
+	height: 190px;
+    background: #1d6edb;
 }
 
 #top img{
     margin: 20px 10px 20px 320px; 
     padding: 0;
-    width: 150px;
+    width: 145px;
+}
+
+#top h1{
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 30px;
+    line-height: 30px;
+	color:#fff;
+	margin: 0;
+    padding: 0;
 }
 
 #top ul{
     list-style: none;
-    text-decoration: none;
     display: inline-block;
-    text-transform: uppercase;
-	font-size: 10px;
-    line-height: 15px;
-	margin: 0;
-    padding: 0 20px;
-    border-left: 3px solid #fff;
-    color:#fff;
-    top: 40px;
+	margin: 0px 10px;
+    padding: 12px;
+    border-left: 2px solid #fff;
+	position: absolute;
+    top: 43px;
 }
-
-#main-navigation{
-	background: rgb(39,58,90);
+#main-navigation ul{
+	background: #07157b;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	
 }
 
 #main-navigation li{
-	list-style: none;  
-    display: inline-block;
-    text-transform: uppercase;
-	margin: 5px 10px;
-    padding: 10px 10px;
-    font-weight: bold;
-	font-size: 14px;
-	color:#fff;
-    top: 40px;
+	margin: 7px 15px;
+	padding: 20px;
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 21px;
 }
 
-#main-navigation a.current{
-	background: rgb(0,100,177);
-	border: rgb(0,100,177);
-	border-radius: 5px;
-	
+#main-navigation li:first-child{
+	background: #1d6edb;
+	border: #1d6edb;
 }
+
+#main-body{
+	margin: 0;
+	padding: 0;
+    background: #131349;
+}
+
+#bienvenidos img.logo{
+	margin: 25px 0px;
+	margin-left: 11%;
+    padding: 0;
+    width: 14%;
+}
+
+#bienvenidos ul{
+	list-style: none;
+    display: inline-block;
+    margin: 10% 0px;
+	padding: 0;
+	position: relative;
+	top: -60px;
+}
+
+#bienvenidos h2{
+	width: 100%;
+	height: 100%;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 200%;
+	line-height: 100%;
+	color:#fff;
+	margin: 0;
+    padding: 0;
+}
+
+#bienvenidos h2.small{
+	font-weight: 100;
+	font-size: 115%; 
+	line-height: 120%;
+}
+
+
