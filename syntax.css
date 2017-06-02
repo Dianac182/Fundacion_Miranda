@@ -11,19 +11,19 @@
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 11em;
+	height: 7.3vw;
 	background-image: url(Images/marquesina.jpg);
-	background-size: 2800px;
+	background-size: 110vw;
 	background-position: left;
 }
 
 #logo-top img{
     margin: 0; 
     padding: 0;
-	width: 500px;
-	left: 300px;
+	width: 22vw;
+	left: 12.5vw;;
 	position: absolute;
-	top: 25px;
+	top: 0.9vw;
 }
 
 #main-navigation ul{
@@ -35,13 +35,13 @@
 }
 
 #main-navigation li{
-	margin: 7px 15px;
-	padding: 20px;
+	margin: 0.4vw 0.8vw;
+	padding: 0.9vw;
 	color: #fff;
 	display: inline-block;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 21px;
+	font-size: 0.93vw;
 }
 
 #main-navigation li:first-child{
@@ -52,18 +52,19 @@
 #main-body{
 	margin: 0;
 	padding: 0;
+	height: 31.6vw;
     background-image: url(Images/backgr.png);
+	background-repeat: no-repeat;
 	background-size: 100vw;
 }
 
 #logo-titles{
 	margin: 0;
     padding: 0;
-	width: 100%;
 }
 
 #logo-titles img{
-	margin: 50px 0px;
+	margin: 2.3vw 0vw;
 	margin-left: 10vw;
 	padding: 0;
 	width: 13vw;
@@ -71,64 +72,59 @@
 
 #bienvenidos{
 	margin: 0;
-	margin-left: 40px;
+	margin-left: 1.8vw;
 	padding: 0;
 	display: inline-block;
 	position: relative;
-	top: -150px;
+	top: -6.1vw;
 }
 
-#bienvenidos h2{
-	margin: 0;
-	padding: 0;
-	line-height: 45px;
-}
-
-.cap-letters{
-	margin-bottom: 70px;
+.cap-letters h2{
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 260%;
-}
-
-#bienvenidos h2:first-child{
-	margin-bottom: 10px;
-} 
-
-.small-letters{
-	font-size: 85%;
+	font-size: 1.5vw;
 	font-weight: 400;
+	line-height: 0.7vw;
 }
+
+#bienvenidos .big-letters{
+	font-size: 2.5vw;
+	font-weight: 700;
+	margin-bottom: 1.7vw;
+} 
 
 #texto-suscribete{
 	margin: 0;
-	margin-left: 10vw;
+	margin-left: 11vw;
 	padding: 0;
-	width: 1000px;
+	width: 40vw;
+	height: 7vw;
 	background: #07152b;
-	position: absolute;
 }
 
 #texto{
-	margin: 20px;
+	margin: 0.7vw;
 	padding: 0;
-	width: auto;
 	display: inline-block;
+	position: absolute;
 }
 
 #texto h2{
 	margin: 0;
-	padding: 7px;
-	line-height: 30px;
-	font-weight: 500;
+	padding: 0;
+	font-size: 1.3vw;
+	line-height: 2vw;
+	word-spacing: 0.1vw;
+	font-weight: 600;
 }
 
 a.bottom{
-	padding: 15px 50px;
-	border: 5px solid #fff;
-	font-size: 24px;
+	padding: 0.6vw  2.4vw;
+	border: 0.2vw solid #fff;
+	font-size: 1vw;
 	font-weight: 600;
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #fff;
 	background: #07157b;
 }
@@ -139,10 +135,16 @@ a.bottom:hover{
 	object-position: right;
 }
 
+#texto-suscribete a{
+	display: inline-block;
+	margin-left: 64%;
+	margin-top: 5%;
+}
+
 #people img{
-	position: relative;
-	margin-left: 1050px;
-	margin-top: -200px;
+	width: 45vw;
+	margin-left: 46.6vw;
+	margin-top: -20vw;
 }
 
 #flags-section{
@@ -157,7 +159,13 @@ a.bottom:hover{
 }
 
 #flags-section li{
+	margin: 0;
+	padding: 0;
 	display: inline-block;
+}
+
+#flags-section img{
+	width: 12vw;
 }
 
 
@@ -167,20 +175,24 @@ a.bottom:hover{
 	text-align: center;
 }
 
-#future-events img{
+#conferencia{
 	margin: 0;
-	margin-top: 3.5vw;
-	width: 72vw;
+	margin-top: 3vw;
+	width: 72.2vw;
+	height: 12.6vw;
 	display: inline-block;
+	background-image: url(Images/event-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 72vw;
 }
 
 #future-events h3{
-	text-align: center;
-	font-size: 2vw;
-	font-weight: 400;
 	margin: 0;
 	margin-top: 2.5vw;
 	padding: 0;
+	text-align: center;
+	font-size: 2vw;
+	font-weight: 400;
 } 
 
 #events-section{
@@ -205,7 +217,7 @@ a.bottom:hover{
 	margin: 0;
 	margin-top: 3.5vw;
 	padding: 0;
-	font-size: 1.2vw;
+	font-size: 1.1vw;
 	font-weight: 500;
 	color: #fff;
 }
@@ -224,21 +236,28 @@ a.rounded{
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
 	display:inline-block;
+	text-transform: capitalize;
 }
 
 #event1{
 	background-image: url(Images/di-1.jpg);
-	background-size: 26vw;
+	background-repeat: no-repeat;
+	background-size: 30vw;
+	background-position: top;
 }
 
 #event2{
 	background-image: url(Images/ni-1.jpg);
-	background-size: 30vw;
+	background-repeat: no-repeat;
+	background-size: 32vw;
+	background-position: left;
 }
 
 #event3{
 	background-image: url(Images/gct-1.jpg);
+	background-repeat: no-repeat;
 	background-size: 30vw;
+	background-position: top;
 }
 
 #alianzas{
@@ -246,7 +265,9 @@ a.rounded{
 	padding: 0;
 	height: 7.3vw;
 	background-image: url(Images/alian.jpg);
+	background-repeat: no-repeat;
 	background-size: 125vw;
+	background-position: top;
 }
 
 #alianzas h3{
@@ -273,6 +294,9 @@ a.rounded{
 	margin: 0;
 	padding: 0;
 	background-image: url(Images/footers.jpg);
+	background-repeat: no-repeat;
+	background-size: 120vw;
+	background-position: top;
 	text-align: center;
 }
 
@@ -280,7 +304,7 @@ a.rounded{
 	margin: 0;
 	padding: 0;
 	width: 71vw;
-	display: inline-block; 
+	display: inline-block;
 }
 
 .footer{
@@ -293,6 +317,8 @@ a.rounded{
 
 .bold{
 	margin: 1vw 0;
+	font-size: 1vw;
+	font-weight: 500;
 }
 
 .font-awesome{
@@ -300,5 +326,55 @@ a.rounded{
 	padding: 0;
 	font-family: fontAwesome;
 	color: #fff;
-	font-size: 1vw;
+	font-size: 0.8vw;
+}
+
+
+#telephone{
+	margin-top: 0.9vw;
+	text-align: left;
+}
+
+#email{
+	margin-bottom: 0.9vw;
+	margin-top: 0.3vw;
+	text-align: left;
+}
+
+#social-media{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+#social-media a{
+	margin: 0.2vw;
+	padding: 0.5vw 0.6vw;
+	border-radius: 10vw;
+	text-decoration: none;
+	font-size: 1.4vw;
+	font-weight: 100;
+	color: #07157b;
+	background: #fff;
+}
+
+#social-media a:first-child{
+	margin-left: -60vw;
+	padding: 0.5vw 0.8vw;
+}
+
+#end{
+	display: inline-block;
+	margin: 0;
+	margin-top: 2.6vw;
+	padding: 1vw;
+	border-top: 1px groove #fff;
+	width: 69vw;
+}
+
+#end span.font-awesome{
+	font-size: 0.68vw;
+}
+
+#end span.footer{
+	font-size: 0.789vw;
 }
